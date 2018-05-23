@@ -21,9 +21,7 @@ collect-funcs: copy []
                 j: i + 2
                 append/only func-collect code-copy/:j
                 j: i + 3
-                append/only func-collect code-copy/:j        
-                probe func-collect 
-                ask "func-collect "         
+                append/only func-collect code-copy/:j               
                 append collect-funcs func-collect    
         
             ]
