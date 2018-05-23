@@ -22,8 +22,7 @@ Red [
         - Jumbotron
         - Background Image
         - ...
-
-
+    ]
 ]
 
 html5-template: {
